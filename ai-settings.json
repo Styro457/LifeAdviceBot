@@ -1,6 +1,6 @@
 {
-  "openai_org": "org-ITVano2ZfEHnOp4oXiqsDQpR",
-  "openai_key": "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",
+  "openai_org": "ORGANIZATION",
+  "openai_key": "API_KEY",
   "temperature": 1,
   "max_tokens": 64,
   "presence_penalty": 1.4,
