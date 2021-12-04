@@ -2,7 +2,7 @@ import openai
 from pathlib import Path
 import json
 
-settingsFile = open("settings.json")
+settingsFile = open("ai-settings.json")
 settings = json.load(settingsFile)
 
 openai.organization = settings["openai_org"]

@@ -1,0 +1,9 @@
+{
+  "openai_org": "org-ITVano2ZfEHnOp4oXiqsDQpR",
+  "openai_key": "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",
+  "temperature": 1,
+  "max_tokens": 64,
+  "presence_penalty": 1.4,
+  "frequency_penalty": 0.9,
+  "blacklistedWords": ["nazi", "killing themselves", "kill yourself", "kill themselves"]
+}
