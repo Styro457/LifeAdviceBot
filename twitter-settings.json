@@ -1,7 +1,0 @@
-{
-  "api_key": "API_KEY",
-  "api_key_secret": "API_KEY_SECRET",
-  "access_token": "ACCESS_TOKEN",
-  "access_token_secret": "ACCESS_TOKEN_SECRET",
-  "mins_between_tweets": 240
-}

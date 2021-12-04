@@ -1,0 +1,18 @@
+{
+  "openai_organization": OPENAI_ORGANZIATION,
+  "openai_api_key": OPENAI_API_KEY,
+
+  "ai_temperature": 1,
+  "ai_max_tokens": 64,
+  "ai_presence_penalty": 1.4,
+  "ai_frequency_penalty": 0.9,
+
+  "blacklisted_words": ["nazi", "killing themselves", "kill yourself", "kill themselves"],
+
+  "twitter_api_key": TWITTER_API_KEY,
+  "twitter_api_key_secret": TWITTER_API_KEY_SECRET,
+  "twitter_access_token": TWITTER_ACCESS_TOKEN,
+  "twitter_access_token_secret": TWITTER_ACCESS_TOKEN_SECRET,
+
+  "mins_between_tweets": 5
+}
