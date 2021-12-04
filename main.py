@@ -16,11 +16,16 @@ client = tweepy.Client(
     wait_on_rate_limit=True
 )
 
+minutesLeft = settings['mins_between_tweets']
+
 while True:
-    print(str(settings['mins_between_tweets']) + " minutes left until the next tweet.")
-    time.sleep(settings['mins_between_tweets']*60)
+    for i in range(0, settings['mins_between_tweets']):
+        print(str(minutesLeft) + " minutes left until the next tweet")
+        minutesLeft -= 1
+        time.sleep(60)
     print("Generating advice...")
     advice = ai.generate_advice()
     print("Tweeting...")
     client.create_tweet(text=advice)
     print("Successfully Tweeted: " + advice)
+    minutesLeft = settings['mins_between_tweets']
