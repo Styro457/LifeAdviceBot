@@ -1,0 +1,9 @@
+{
+  "openai_org": "org-ITVano2ZfEHnOp4oXiqsDQpR",
+  "openai_key": "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",
+  "temperature": 1,
+  "max_tokens": 64,
+  "presence_penalty": 1.4,
+  "frequency_penalty": 0.9,
+  "blacklistedWords": ["nazi"]
+}
