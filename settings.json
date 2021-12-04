@@ -1,0 +1,9 @@
+{
+  "openai_org": "ORG_KEY",
+  "openai_key": "API_KEY",
+  "temperature": 1,
+  "max_tokens": 64,
+  "presence_penalty": 1.4,
+  "frequency_penalty": 0.9,
+  "blacklistedWords": ["nazi"]
+}
