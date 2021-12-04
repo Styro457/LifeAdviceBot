@@ -35,8 +35,10 @@ minutesLeft = settings['mins_between_tweets']
 while True:
     while minutesLeft > 0:
         print(str(minutesLeft) + " minutes left until the next tweet")
-        minutesLeft -= 1
-        time.sleep(60)
+        minutesLeft -= settings['mins_between_time_announcements']
+        if minutesLeft < 0:
+            minutesLeft = 0
+        time.sleep(60 * settings['mins_between_time_announcements'])
     print("Generating advice...")
     advice = adviceAI.generate_advice()
     print("Tweeting...")
