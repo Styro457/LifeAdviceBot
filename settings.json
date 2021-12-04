@@ -14,6 +14,6 @@
   "twitter_access_token": TWITTER_ACCESS_TOKEN,
   "twitter_access_token_secret": TWITTER_ACCESS_TOKEN_SECRET,
 
-  "mins_between_tweets": 5,
+  "mins_between_tweets": 240,
   "mins_between_time_announcements": 30
 }
