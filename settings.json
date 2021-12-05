@@ -7,7 +7,7 @@
   "ai_presence_penalty": 1.4,
   "ai_frequency_penalty": 0.9,
 
-  "blacklisted_words": ["nazi", "killing themselves", "kill yourself", "kill themselves"],
+  "blacklisted_words": ["nazi", "killing themselves", "kill yourself", "kill themselves", "retarded", "autistic", "suicide", "suicidal", "rape", "hitler"],
 
   "twitter_api_key": TWITTER_API_KEY,
   "twitter_api_key_secret": TWITTER_API_KEY_SECRET,
